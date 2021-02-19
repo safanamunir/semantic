@@ -1,0 +1,57 @@
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  table{
+    border: 2px solid #800080;
+    display: inline-table;
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  tbody>tr:nth-child(even) {
+    background: #e495e4 ;
+    background-image: url(/assets/noise.png);
+  
+  }
+  tbody>tr:nth-child(odd) {
+    background: #ff33cc;
+    background-image: url(/assets/noise.png);
+  
+  }
+  
+  tbody{
+    
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  thead>tr, tfoot>tr {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/assets/leopardskin.jpg");
+    
+    /* linear-gradient(rgba (0,0,0,0.1), rgba(0,0,0,0.5)),
+                    url(/semantic-html-challenge/assets/leopardskin.jpg); */
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    
+  }
+  thead th, tfoot td{
+    padding: 10px;
+    border: 2px solid #800080;
+  }
+  
+  caption{
+    caption-side: bottom;
+    font-family: 'Rock Salt', cursive ;
+    text-align: right;
+  }
+  
+  
+  
+  
