@@ -16,12 +16,12 @@ body {
   
   tbody>tr:nth-child(even) {
     background: #e495e4 ;
-    background-image: url(/assets/noise.png);
+    background-image: url(https://safanamunir.github.io/semantic/assets/noise.png);
   
   }
   tbody>tr:nth-child(odd) {
     background: #ff33cc;
-    background-image: url(/assets/noise.png);
+    background-image: url(https://safanamunir.github.io/semantic/assets/noise.png);
   
   }
   
@@ -33,7 +33,7 @@ body {
   thead>tr, tfoot>tr {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/assets/leopardskin.jpg");
+    url("https://safanamunir.github.io/semantic/assets/leopardskin.jpg");
     
     /* linear-gradient(rgba (0,0,0,0.1), rgba(0,0,0,0.5)),
                     url(/semantic-html-challenge/assets/leopardskin.jpg); */
